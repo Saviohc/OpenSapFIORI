@@ -12,7 +12,7 @@
 				<content>
 					<IconTabBar
 						id="idTopLevelIconTabBar"
-						 class="sapUiResponsiveContentPadding">
+						class="sapUiResponsiveContentPadding">
 						<items>
 							<IconTabFilter id="start" text="{i18n>gettingStartedFilter}">
 								<Carousel>
