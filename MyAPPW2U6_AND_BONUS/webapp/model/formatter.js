@@ -30,9 +30,7 @@ sap.ui.define([], function() {
 		
 		formatMapUrl: function(iStreet, iHouseNumber, iZIPCode, iCity, iCountry) {
 			const letURL = "https://maps.googleapis.com/maps/api/staticmap?size=640x640&pt=400&markers=" +
-						    jQuery.sap.encodeURL(iStreet + ", " + iHouseNumber + ", " + iZIPCode + " " + iCity + ", " + iCountry) +
-							"&key=AIzaSyBaftOicw63dwopoNsn3etsNpesqqOtpAs";
-		    console.log(letURL);
+						    jQuery.sap.encodeURL(iStreet + ", " + iHouseNumber + ", " + iZIPCode + " " + iCity + ", " + iCountry);
 			return letURL;
 		}
 	};
